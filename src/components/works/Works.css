@@ -1,0 +1,120 @@
+.mySwiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 600px;
+}
+
+.swiper-slide:not(.swiper-slide-active) .__img_wrapper img,
+.swiper-slide:not(.swiper-slide-active) .__content_wrapper,
+.swiper-slide:not(.swiper-slide-active) .btn {
+  filter: blur(2px);
+  opacity: 0.5;
+  transition: opacity 0.3s ease, filter 0.3s ease;
+}
+
+.swiper-slide-active .__img_wrapper img,
+.swiper-slide-active .__content_wrapper,
+.swiper-slide-active .btn {
+  filter: blur(0);
+  opacity: 1;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.9s ease, box-shadow 0.5s ease;
+}
+
+.swiper-slide-active {
+  width: 380px;
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: -50px;
+}
+
+.project {
+  position: relative;
+}
+
+.__img_wrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.overlay {
+  margin-bottom: 14px;
+}
+
+.project:hover img {
+  transform: scale(1.1);
+}
+
+.btn {
+  background-color: #fafafa;
+  color: #00bfbf;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00bfbf;
+  color: #fafafa;
+  transform: translateY(-2px);
+}
+
+.__content_wrapper {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.description {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .mySwiper {
+    width: 72%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 600px;
+    z-index: 1;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 262px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "basics": {
+    "name": "Abdelrahman Reda",
+    "label": "Frontend React & Next.js Developer",
+    "email": "abdelrhman.reda.dev@gmail.com",
+    "phone": "(+20) 1062915367",
+    "picture": "mt.png",
+    "x_title": "Hello, I'm",
+    "job1": "Frontend",
+    "job2": "Developer",
+    "description": "Hello! I'm Abdelrahman, a passionate frontend developer specializing in React and Next.js. I love working on fast and scalable web apps with clean, efficient code and user-friendly experiences.",
+    "summary": "Based in Cairo, Egypt, focusing on creating efficient and responsive web applications.",
+    "keywords": "frontend, react, next.js, developer, portfolio, webdev, Cairo, Egypt, GitHub, LinkedIn, JavaScript, CSS, HTML, Tailwind, web apps, responsive design",
+    "url": "https://abdoreda3.github.io/CreateFolio/",
+    "location": {
+      "address": "Cairo",
+      "city": "Cairo",
+      "country": "Egypt",
+      "countryCode": "EG",
+      "region": "Africa"
+    },
+    "profiles": [
+      {
+        "network": "Google",
+        "username": "abdelrhamanreda11@gmail.com",
+        "url": "mailto:abdelrhamanreda11@gmail.com",
+        "x_icon": "fab fa-google"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "abdelrhmanreda",
+        "url": "https://www.linkedin.com/in/abdelrhmanreda/",
+        "x_icon": "fab fa-linkedin-in"
+      },
+      {
+        "network": "GitHub",
+        "username": "abdelrhmanreda",
+        "url": "https://github.com/abdelrhmanreda1",
+        "x_icon": "fab fa-github"
+      },
+      {
+        "network": "Telegram",
+        "username": "AbdoReda",
+        "url": "https://t.me/abdoreda2060",
+        "x_icon": "fab fa-telegram-plane"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "oneHand",
+      "position": "React Developer",
+      "startDate": "2023-07-01",
+      "endDate": "2024-06-01",
+      "summary": "Developed scalable and responsive web applications using React and Next.js.",
+      "highlights": ["Created a modern, user-friendly dashboard for The Wild Oasis project."]
+    },
+    {
+      "company": "upgrade solution",
+      "position": "Web Designer",
+      "startDate": "2022-01-01",
+      "endDate": "2022-04-01",
+      "summary": "Designed and developed web pages focusing on user experience and responsive design."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Al-Azhar University",
+      "area": "Agricultural Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2021-09-01",
+      "endDate": "2025-05-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Advanced",
+      "keywords": ["React.js", "Next.js", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Styled Components", "Redux", "React Query", "Git", "GitHub"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Good speaker"
+    },
+    {
+      "language": "Arabic",
+      "fluency": "Native speaker"
+    }
+  ]
+}

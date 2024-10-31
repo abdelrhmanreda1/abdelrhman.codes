@@ -1,0 +1,22 @@
+.logo-image,
+.logo-image-hidden {
+  opacity: 1;
+  margin: -44px -8px 0px -45px;
+  width: 140px;
+  height: 140px;
+}
+
+.logo-image-hidden {
+  display: none;
+  width: 85px;
+  height: 85px;
+  margin: -17px -8px 0px -18px;
+}
+
+.logo-container:hover .logo-image {
+  display: none;
+}
+
+.logo-container:hover .logo-image-hidden {
+  display: block;
+}
